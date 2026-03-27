@@ -1,0 +1,105 @@
+﻿{
+    "timestamp":  "20260327_210423",
+    "test_user":  {
+                      "username":  "thesis_test_20260327_210423",
+                      "nickname":  "论文测试20260327_210423",
+                      "userId":  45
+                  },
+    "register":  {
+                     "code":  200,
+                     "data":  null,
+                     "msg":  "æ³¨åæåï¼"
+                 },
+    "login":  {
+                  "code":  200,
+                  "msg":  "ç»å½æå",
+                  "userId":  45,
+                  "username":  "thesis_test_20260327_210423",
+                  "nickname":  ""
+              },
+    "publish":  {
+                    "code":  200,
+                    "msg":  "æä½æå",
+                    "searchCount":  0,
+                    "blogId":  0
+                },
+    "detail":  {
+                   "code":  500,
+                   "title":  null,
+                   "views":  null
+               },
+    "duration":  {
+                     "ok":  {
+                                "code":  200,
+                                "data":  "è®°å½æå",
+                                "msg":  "æä½æå"
+                            },
+                     "invalid":  {
+                                     "code":  500,
+                                     "data":  null,
+                                     "msg":  "æ ææ¶é¿"
+                                 },
+                     "historyCount":  0
+                 },
+    "interaction":  {
+                        "like":  {
+                                     "code":  200,
+                                     "data":  "ç¹èµæå",
+                                     "msg":  "æä½æå"
+                                 },
+                        "likeCheck":  true,
+                        "collect":  {
+                                        "code":  200,
+                                        "data":  "æä½æå",
+                                        "msg":  "æä½æå"
+                                    },
+                        "collectCheck":  true,
+                        "todo":  {
+                                     "code":  200,
+                                     "data":  "æä½æå",
+                                     "msg":  "æä½æå"
+                                 },
+                        "todoCheck":  true,
+                        "block":  {
+                                      "code":  200,
+                                      "data":  "æä½æå",
+                                      "msg":  "æä½æå"
+                                  },
+                        "blockCheck":  true
+                    },
+    "comment":  {
+                    "add":  {
+                                "code":  200,
+                                "data":  null,
+                                "msg":  "æä½æå"
+                            },
+                    "score":  4.0,
+                    "foundCommentId":  null,
+                    "foundCommentText":  null
+                },
+    "notification":  {
+                         "beforeUnread":  0,
+                         "afterUnread":  2,
+                         "delta":  2
+                     },
+    "permission":  {
+                       "code":  500,
+                       "data":  null,
+                       "msg":  "æéä¸è¶³ï¼æ æ³å é¤ä»äººæç« "
+                   },
+    "recommend":  {
+                      "code":  200,
+                      "count":  30,
+                      "firstTitle":  "Python èªå¨ååå\u0085¬ï¼Excel å¤ç",
+                      "firstReason":  "å½åç«å\u0085ç­é¨å\u0085å®¹ï¼ä¸ç»¼åæ¶ææ§æ´ä¼"
+                  },
+    "profile":  {
+                    "code":  200,
+                    "summary":  "è¿æåå¥½ï¼ååç«¯åç¦»ãåå®¢ç³»ç»ãå\u0085å®¹æ¨è"
+                },
+    "radar":  {
+                  "code":  200,
+                  "indicatorCount":  0,
+                  "valueCount":  1
+              }
+}

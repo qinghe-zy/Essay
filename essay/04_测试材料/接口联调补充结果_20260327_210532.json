@@ -1,0 +1,38 @@
+﻿{
+    "timestamp":  "20260327_210532",
+    "userId":  45,
+    "search":  {
+                   "code":  200,
+                   "count":  1,
+                   "firstId":  70,
+                   "firstTitle":  "thesis_api_case_20260327_210532"
+               },
+    "detail":  {
+                   "code":  500,
+                   "title":  null,
+                   "views":  null
+               },
+    "duration":  {
+                     "code":  200,
+                     "msg":  "æä½æå"
+                 },
+    "history":  {
+                    "count":  0,
+                    "latestTitle":  null
+                },
+    "lists":  {
+                  "myLikesCount":  1,
+                  "collectCount":  1,
+                  "todoCount":  1
+              },
+    "blockFilter":  {
+                        "blockedBlog67Absent":  true
+                    },
+    "notification":  {
+                         "listCount":  4,
+                         "firstId":  20,
+                         "readOne":  "æä½æå",
+                         "readAll":  "æä½æå",
+                         "unreadAfter":  0
+                     }
+}
