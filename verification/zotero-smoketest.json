@@ -1,0 +1,34 @@
+{
+  "api_probe": {
+    "launched_zotero": true,
+    "api_ready": true,
+    "attempts": [
+      {
+        "status_code": 200
+      }
+    ],
+    "launched_pid": 7912
+  },
+  "server_name": "Zotero",
+  "server_version": "1.26.0",
+  "tools": [
+    "zotero_item_metadata",
+    "zotero_item_fulltext",
+    "zotero_search_items"
+  ],
+  "tool_count": 3,
+  "zotero_search_items": {
+    "is_error": false,
+    "structured_content": {
+      "result": "No items found matching your query."
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "No items found matching your query.",
+        "annotations": null,
+        "meta": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "server_name": "paper_search_server",
+  "server_version": "1.26.0",
+  "tools": [
+    "search_arxiv",
+    "search_pubmed",
+    "search_biorxiv",
+    "search_medrxiv",
+    "search_google_scholar",
+    "download_arxiv",
+    "download_pubmed",
+    "download_biorxiv",
+    "download_medrxiv",
+    "read_arxiv_paper",
+    "read_pubmed_paper",
+    "read_biorxiv_paper",
+    "read_medrxiv_paper"
+  ],
+  "tool_count": 13,
+  "search_arxiv": {
+    "is_error": false,
+    "structured_content": {
+      "result": [
+        {
+          "paper_id": "2603.25746v1",
+          "title": "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling",
+          "authors": "Yawen Luo; Xiaoyu Shi; Junhao Zhuang; Yutian Chen; Quande Liu; Xintao Wang; Pengfei Wan; Tianfan Xue",
+          "abstract": "Multi-shot video generation is crucial for long narrative storytelling, yet current bidirectional architectures suffer from limited interactivity and high latency. We propose ShotStream, a novel causal multi-shot architecture that enables interactive storytelling and efficient on-the-fly frame generation. By reformulating the task as next-shot generation conditioned on historical context, ShotStream allows users to dynamically instruct ongoing narratives via streaming prompts. We achieve this by first fine-tuning a text-to-video model into a bidirectional next-shot generator, which is then distilled into a causal student via Distribution Matching Distillation. To overcome the challenges of inter-shot consistency and error accumulation inherent in autoregressive generation, we introduce two key innovations. First, a dual-cache memory mechanism preserves visual coherence: a global context cache retains conditional frames for inter-shot consistency, while a local context cache holds generated frames within the current shot for intra-shot consistency. And a RoPE discontinuity indicator is employed to explicitly distinguish the two caches to eliminate ambiguity. Second, to mitigate error accumulation, we propose a two-stage distillation strategy. This begins with intra-shot self-forcing conditioned on ground-truth historical shots and progressively extends to inter-shot self-forcing using self-generated histories, effectively bridging the train-test gap. Extensive experiments demonstrate that ShotStream generates coherent multi-shot videos with sub-second latency, achieving 16 FPS on a single GPU. It matches or exceeds the quality of slower bidirectional models, paving the way for real-time interactive storytelling. Training and inference code, as well as the models, are available on our",
+          "doi": "",
+          "published_date": "2026-03-26T17:59:59",
+          "pdf_url": "https://arxiv.org/pdf/2603.25746v1",
+          "url": "http://arxiv.org/abs/2603.25746v1",
+          "source": "arxiv",
+          "updated_date": "2026-03-26T17:59:59",
+          "categories": "cs.CV",
+          "keywords": "",
+          "citations": 0,
+          "references": "",
+          "extra": ""
+        },
+        {
+          "paper_id": "2603.25744v1",
+          "title": "MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models",
+          "authors": "Bocheng Zou; Mu Cai; Mark Stanley; Dingfu Lu; Yong Jae Lee",
+          "abstract": "Vision Foundation Models (VFMs) have become the cornerstone of modern computer vision, offering robust representations across a wide array of tasks. While recent advances allow these models to handle varying input sizes during training, inference typically remains restricted to a single, fixed scale. This prevalent single-scale paradigm overlooks a fundamental property of visual perception: varying resolutions offer complementary inductive biases, where low-resolution views excel at global semantic recognition and high-resolution views are essential for fine-grained refinement. In this work, we propose Multi-Resolution Fusion (MuRF), a simple yet universally effective strategy to harness this synergy at inference time. Instead of relying on a single view, MuRF constructs a unified representation by processing an image at multiple resolutions through a frozen VFM and fusing the resulting features. The universality of MuRF is its most compelling attribute. It is not tied to a specific architecture, serving instead as a fundamental, training-free enhancement to visual representation. We empirically validate this by applying MuRF to a broad spectrum of critical computer vision tasks across multiple distinct VFM families - primarily DINOv2, but also demonstrating successful generalization to contrastive models like SigLIP2.",
+          "doi": "",
+          "published_date": "2026-03-26T17:59:58",
+          "pdf_url": "https://arxiv.org/pdf/2603.25744v1",
+          "url": "http://arxiv.org/abs/2603.25744v1",
+          "source": "arxiv",
+          "updated_date": "2026-03-26T17:59:58",
+          "categories": "cs.CV",
+          "keywords": "",
+          "citations": 0,
+          "references": "",
+          "extra": ""
+        }
+      ]
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"paper_id\": \"2603.25746v1\",\n  \"title\": \"ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling\",\n  \"authors\": \"Yawen Luo; Xiaoyu Shi; Junhao Zhuang; Yutian Chen; Quande Liu; Xintao Wang; Pengfei Wan; Tianfan Xue\",\n  \"abstract\": \"Multi-shot video generation is crucial for long narrative storytelling, yet current bidirectional architectures suffer from limited interactivity and high latency. We propose ShotStream, a novel causal multi-shot architecture that enables interactive storytelling and efficient on-the-fly frame generation. By reformulating the task as next-shot generation conditioned on historical context, ShotStream allows users to dynamically instruct ongoing narratives via streaming prompts. We achieve this by first fine-tuning a text-to-video model into a bidirectional next-shot generator, which is then distilled into a causal student via Distribution Matching Distillation. To overcome the challenges of inter-shot consistency and error accumulation inherent in autoregressive generation, we introduce two key innovations. First, a dual-cache memory mechanism preserves visual coherence: a global context cache retains conditional frames for inter-shot consistency, while a local context cache holds generated frames within the current shot for intra-shot consistency. And a RoPE discontinuity indicator is employed to explicitly distinguish the two caches to eliminate ambiguity. Second, to mitigate error accumulation, we propose a two-stage distillation strategy. This begins with intra-shot self-forcing conditioned on ground-truth historical shots and progressively extends to inter-shot self-forcing using self-generated histories, effectively bridging the train-test gap. Extensive experiments demonstrate that ShotStream generates coherent multi-shot videos with sub-second latency, achieving 16 FPS on a single GPU. It matches or exceeds the quality of slower bidirectional models, paving the way for real-time interactive storytelling. Training and inference code, as well as the models, are available on our\",\n  \"doi\": \"\",\n  \"published_date\": \"2026-03-26T17:59:59\",\n  \"pdf_url\": \"https://arxiv.org/pdf/2603.25746v1\",\n  \"url\": \"http://arxiv.org/abs/2603.25746v1\",\n  \"source\": \"arxiv\",\n  \"updated_date\": \"2026-03-26T17:59:59\",\n  \"categories\": \"cs.CV\",\n  \"keywords\": \"\",\n  \"citations\": 0,\n  \"references\": \"\",\n  \"extra\": \"\"\n}",
+        "annotations": null,
+        "meta": null
+      },
+      {
+        "type": "text",
+        "text": "{\n  \"paper_id\": \"2603.25744v1\",\n  \"title\": \"MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models\",\n  \"authors\": \"Bocheng Zou; Mu Cai; Mark Stanley; Dingfu Lu; Yong Jae Lee\",\n  \"abstract\": \"Vision Foundation Models (VFMs) have become the cornerstone of modern computer vision, offering robust representations across a wide array of tasks. While recent advances allow these models to handle varying input sizes during training, inference typically remains restricted to a single, fixed scale. This prevalent single-scale paradigm overlooks a fundamental property of visual perception: varying resolutions offer complementary inductive biases, where low-resolution views excel at global semantic recognition and high-resolution views are essential for fine-grained refinement. In this work, we propose Multi-Resolution Fusion (MuRF), a simple yet universally effective strategy to harness this synergy at inference time. Instead of relying on a single view, MuRF constructs a unified representation by processing an image at multiple resolutions through a frozen VFM and fusing the resulting features. The universality of MuRF is its most compelling attribute. It is not tied to a specific architecture, serving instead as a fundamental, training-free enhancement to visual representation. We empirically validate this by applying MuRF to a broad spectrum of critical computer vision tasks across multiple distinct VFM families - primarily DINOv2, but also demonstrating successful generalization to contrastive models like SigLIP2.\",\n  \"doi\": \"\",\n  \"published_date\": \"2026-03-26T17:59:58\",\n  \"pdf_url\": \"https://arxiv.org/pdf/2603.25744v1\",\n  \"url\": \"http://arxiv.org/abs/2603.25744v1\",\n  \"source\": \"arxiv\",\n  \"updated_date\": \"2026-03-26T17:59:58\",\n  \"categories\": \"cs.CV\",\n  \"keywords\": \"\",\n  \"citations\": 0,\n  \"references\": \"\",\n  \"extra\": \"\"\n}",
+        "annotations": null,
+        "meta": null
+      }
+    ]
+  }
+}
